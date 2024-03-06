@@ -23,6 +23,7 @@
 @layer components {
 
 .reveal{
+    @apply  opacity-0;
     &.active{
         opacity: 1;
         transition-delay: 0.5s;

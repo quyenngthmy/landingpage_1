@@ -52,9 +52,7 @@
             <div class="overlay-menu z-40">
               <div class="menu-header">
                 <div class="flex justify-between items-center lg:hidden">
-                  <div
-                    class="flex text-primary-1 text-xl font-bold uppercase md:text-2xl lg:text-primary-1"
-                  >
+                  <div class="flex text-primary-1 text-xl font-bold uppercase md:text-2xl lg:text-primary-1">
                     <a href="#"> LOGO </a>
                   </div>
                   <button class="flex text-xl btn-close-menu">
@@ -66,13 +64,13 @@
                     <a href="#">home</a>
                   </li>
                   <li>
-                    <a href="#introduction">introduction</a>
+                    <a href="#">introduction</a>
                   </li>
                   <li>
-                    <a href="#product">product</a>
+                    <a href="#">product</a>
                   </li>
                   <li>
-                    <a href="#contact">contact</a>
+                    <a href="#">contact</a>
                   </li>
                 </ul>
               </div>
@@ -88,13 +86,13 @@
             <div class="swiper swiperBanner group">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide relative w-full pt-[40%]">
-                        <img src="../image/banner_1.png" class="image-custom object-cover" alt="banner home 1">
+                        <img src="../image/banner_1.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
                     </div>
                     <div class="swiper-slide relative w-full pt-[40%]">
-                        <img src="../image/banner_2.png" class="image-custom object-cover" alt="banner home 1">
+                        <img src="../image/banner_2.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
                     </div>
                     <div class="swiper-slide relative w-full pt-[40%]">
-                        <img src="../image/banner_3.png" class="image-custom object-cover" alt="banner home 1">
+                        <img src="../image/banner_3.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
                     </div>
                 </div>
                 <div class="swiper-button-next invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
@@ -110,175 +108,116 @@
             </div>
         </section>
 
-      <section id="introduction">
-        <div class="mx-auto w-full xl:max-w-7xl">
-          <div
-            class="grid grid-cols-1 pt-14 px-4 gap-4 lg:gap-10 lg:grid-cols-2 lg:px-2 md:pt-20 2xl:px-0"
-          >
-            <div
-              class="flex flex-col gap-3 text-neutral-1-900 fadeinRight reveal lg:order-2 xl:fadeInRight xl:opacity-0"
-            >
-              <h1 class="uppercase font-semibold text-xl xl:text-3xl">
-                Uy tín - chất lượng - giá trị bền vững
-              </h1>
-              <p class="text-lg">
-                Chào mừng bạn đến với Bảo Kim - nơi mà chúng tôi không chỉ cung
-                cấp sản phẩm và dịch vụ mà còn xây dựng các mối quan hệ đối tác
-                lâu dài dựa trên uy tín, chất lượng và giá trị bền vững. Chúng
-                tôi tự hào là người đồng hành đắc lực cho sự thành công của bạn.
-              </p>
-              <ul class="space-y-2 text-base list-disc list-inside">
-                <li>
-                  Chúng tôi xây dựng uy tín thông qua sự trung thực, minh bạch
-                  và cam kết duy trì chất lượng dịch vụ cao.
-                </li>
-                <li>
-                  Sứ mệnh của chúng tôi là mang lại sản phẩm và dịch vụ với chất
-                  lượng tối ưu nhất
-                </li>
-                <li>
-                  Chúng tôi hiểu rằng để phát triển bền vững, không chỉ cần có
-                  sự hài lòng ngay lập tức mà còn cần phải tạo ra giá trị lâu
-                  dài cho cả khách hàng và cộng đồng.
-                </li>
-              </ul>
-            </div>
-            <div
-              class="relative w-full pt-[56%] fadeinLeft reveal lg:order-1 xl:fadeInLeft xl:opacity-0"
-            >
-              <img
-                alt=""
-                class="image-custom object-cover"
-                src="../image/intro.jpg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+         <!-- Product -->
+         <section>
+            <div class="w-full mx-auto 2xl:max-w-screen-2xl">
+                <div class="flex flex-col gap-4 py-10 px-4 lg:px-2 lg:gap-6 xl:py-14 2xl:px-0">
+                    <p class="font-medium text-heading-6 p-2 px-4 bg-primary-1 text-white rounded-full w-fit xl:text-heading-5 reveal fadeIn">
+                        Sản phẩm nổi bật
+                    </p>
+                    <div class="grid grid-cols-1 w-full gap-6 md:grid-cols-2 lg:grid-cols-4 reveal fadeInLeft">
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_3.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_3.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                       
+                    </div>
 
-      <section id="product">
-        <div class="w-full mx-auto xl:max-w-7xl">
-          <div
-            class="flex flex-col items-center gap-4 pt-14 px-4 lg:px-2 lg:gap-6 md:pt-20 2xl:px-0"
-          >
-            <p
-              class="text-neutral-1-900 font-semibold text-heading-4 xl:text-heading-2 reveal fadeInUp opacity-0"
-            >
-              Sản phẩm nổi bật
-            </p>
-            <div
-              class="grid grid-cols-1 w-full gap-6 md:grid-cols-2 lg:grid-cols-4 reveal fadeInDown opacity-0"
-            >
-              <div
-                class="flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105"
-              >
-                <div class="w-full relative pt-[100%]">
-                  <img
-                    alt=""
-                    class="image-custom object-cover rounded-t-xl"
-                    loading="lazy"
-                    src="../image/cashew-product-2.jpg"
-                  />
+                    <div class="flex justify-center reveal fadeInDown">
+                        <button class="flex text-body-2 font-medium pt-4 w-fit group">
+                            <a href="product.html" class="flex gap-1 items-center bg-primary-1 text-neutral-600 p-2 px-4 rounded-md hover:bg-secondary-1 hover:text-white transition-colors duration-300">
+                                MORE
+                                <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
+                            </a>
+                        </button>
+                    </div>
                 </div>
-                <p class="text-neutral-1-900 font-medium text-xl">
-                  Điều rang muối
-                </p>
-              </div>
-              <div
-                class="flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105"
-              >
-                <div class="w-full relative pt-[100%]">
-                  <img
-                    alt=""
-                    class="image-custom object-cover rounded-t-xl"
-                    loading="lazy"
-                    src="../image/nest-product-3.jpg"
-                  />
-                </div>
-                <p class="text-neutral-1-900 font-medium text-xl">Yến Sào</p>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Contact -->
-      <section id="contact">
-        <div class="w-full mx-auto xl:max-w-7xl reveal fadeIn opacity-0">
-          <div
-            class="flex flex-col gap-5 pt-14 px-4 lg:px-2 md:pt-20 xl:flex-row 2xl:px-0"
-          >
-            <div class="w-full xl:w-1/2">
-              <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe
-                    frameborder="0"
-                    scrolling="no"
-                    src="https://maps.google.com/maps?q=s%E1%BB%91%2011%20ng%C3%B5%20143%20trung%20k%C3%ADnh,%20ph%C6%B0%E1%BB%9Dng%20trung%20h%C3%B2a,%20qu%E1%BA%ADn%20c%E1%BA%A7u%20gi%E1%BA%A5y,%20h%C3%A0%20n%E1%BB%99i&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                    style="width: 100%; height: 400px"
-                  ></iframe>
-                  <style>
-                    .mapouter {
-                      position: relative;
-                      height: 400px;
-                      width: 100%;
-                      background: #fff;
-                    }
-                  </style>
-                  <a
-                    href="https://blooketjoin.org"
-                    style="
-                      color: #fff !important;
-                      position: absolute !important;
-                      top: 0 !important;
-                      z-index: 0 !important;
-                    "
-                    >blooket join</a
-                  >
-                  <style>
-                    .gmap_canvas {
-                      overflow: hidden;
-                      height: 400px;
-                      width: 100%;
-                    }
-
-                    .gmap_canvas iframe {
-                      position: relative;
-                      z-index: 2;
-                    }
-                  </style>
+        <!-- Banner -->
+        <section>
+            <div class="reveal fadeIn">
+                <div class="relative w-full pt-[40%] lg:pt-[20%]">
+                    <img src="../image/banner_4.png" class="image-custom object-cover" alt="">
                 </div>
-              </div>
             </div>
-            <div class="flex flex-col justify-center gap-4 text-neutral-1-900">
-              <p class="text-heading-3 font-semibold">
-                Hãy liên hệ với chúng tôi
-              </p>
-              <div class="flex items-center gap-3">
-                <i class="fa-solid fa-location-dot text-info-500"></i>
-                <p>
-                  Số nhà 11 ngõ 143 Trung Kính, Phường Trung Hòa, Quận Cầu Giấy,
-                  Hà Nội
-                </p>
-              </div>
-              <div class="flex items-center gap-3">
-                <i class="fa-solid fa-phone text-info-500"></i>
-                <p>0946 317 555</p>
-              </div>
-              <ul class="flex flex-col gap-3 list-disc list-inside">
-                <li>
-                  Giao hàng tận nơi: Chúng tôi sẽ giao sản phẩm đến tận cửa nhà
-                  bạn, đảm bảo tính tiện lợi và an toàn.
-                </li>
-                <li>
-                  Tư vấn chuyên nghiệp: Đội ngũ tư vấn của chúng tôi sẽ giúp bạn
-                  chọn lựa sản phẩm phù hợp với nhu cầu và sở thích của bạn.
-                </li>
-              </ul>
+        </section>
+
+        <!-- Contact -->
+        <!-- <section>
+            <div class="w-full mx-auto xl:max-w-7xl">
+                <div class="flex flex-col gap-5 pt-10 px-4 lg:px-2 xl:flex-row 2xl:px-0">
+                    <div class="w-full xl:w-1/2">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe src="https://maps.google.com/maps?q=s%E1%BB%91%2011%20ng%C3%B5%20143%20trung%20k%C3%ADnh,%20ph%C6%B0%E1%BB%9Dng%20trung%20h%C3%B2a,%20qu%E1%BA%ADn%20c%E1%BA%A7u%20gi%E1%BA%A5y,%20h%C3%A0%20n%E1%BB%99i&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 400px;"></iframe>
+                                <style>.mapouter{position:relative;height:400px;width:100%;background:#fff;}</style>
+                                <a href="https://blooketjoin.org" style="color:#fff !important; position:absolute !important; top:0 !important; z-index:0 !important;">blooket join</a>
+                                <style>.gmap_canvas{overflow:hidden;height:400px;width:100%}.gmap_canvas iframe{position:relative;z-index:2}</style>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center gap-4 text-neutral-1-900">
+                        <p class="text-heading-3 font-semibold">
+                            Hãy liên hệ với chúng tôi
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-location-dot text-info-500"></i>
+                            <p>
+                                Số nhà 11 ngõ 143 Trung Kính, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-info-500"></i>
+                            <p>
+                                0946 317 555
+                            </p>
+                        </div>
+                        <ul class="flex flex-col gap-3 list-disc list-inside">
+                            <li>
+                                Giao hàng tận nơi: Chúng tôi sẽ giao sản phẩm đến tận cửa nhà bạn, đảm bảo tính tiện lợi và an toàn.
+                            </li>
+                            <li>
+                                Tư vấn chuyên nghiệp: Đội ngũ tư vấn của chúng tôi sẽ giúp bạn chọn lựa sản phẩm phù hợp với nhu cầu và sở thích của bạn.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section> -->
     </main>
 
     <footer>
