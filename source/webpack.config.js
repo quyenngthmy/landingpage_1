@@ -25,7 +25,7 @@ module.exports = {
   },
   output: {
     clean: true,
-    path: path.join(__dirname, "../production"), // Thư mục chứa file được build ra
+    path: path.join(__dirname, "../build"), // Thư mục chứa file được build ra
   },
   module: {
     rules: [
