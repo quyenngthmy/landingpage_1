@@ -91,6 +91,12 @@ module.exports = {
       inject: "body",
       chunks: ['index'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'product.html',
+      template: './src/view/product.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
     new MiniCssExtractPlugin({
       filename: "static/css/[name].min.css",
     }),

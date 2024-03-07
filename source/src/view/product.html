@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <title>Home</title>
+    <title>Product</title>
   </head>
   <body class="font-sans w-screen overflow-x-hidden">
     <header>
@@ -60,18 +60,18 @@
                   </button>
                 </div>
                 <ul id="nav">
-                  <li>
-                    <a href="./index.html">home</a>
-                  </li>
-                  <li>
-                    <a href="#">introduction</a>
-                  </li>
-                  <li>
-                    <a href="./product.html">product</a>
-                  </li>
-                  <li>
-                    <a href="#">contact</a>
-                  </li>
+                    <li>
+                      <a href="./index.html">home</a>
+                    </li>
+                    <li>
+                      <a href="#">introduction</a>
+                    </li>
+                    <li>
+                      <a href="./product.html">product</a>
+                    </li>
+                    <li>
+                      <a href="#">contact</a>
+                    </li>
                 </ul>
               </div>
             </div>
@@ -81,41 +81,14 @@
     </header>
 
     <main>
-        <!-- Banner -->
+        <!-- Product -->
         <section>
-            <div class="swiper swiperBanner group">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide relative w-full pt-[40%]">
-                        <img src="../image/banner_1.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
-                    </div>
-                    <div class="swiper-slide relative w-full pt-[40%]">
-                        <img src="../image/banner_2.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
-                    </div>
-                    <div class="swiper-slide relative w-full pt-[40%]">
-                        <img src="../image/banner_3.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
-                    </div>
-                </div>
-                <div class="swiper-button-next invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
-                    <div class="flex mr-10 w-fit h-fit shadow-2xl p-2 px-3 bg-primary-1 text-white rounded-full transition-colors duration-500 hover:bg-white hover:text-primary-1">
-                        <i class="fa-solid fa-angle-right text-2xl leading-none"></i>
-                    </div>
-                </div>
-                <div class="swiper-button-prev invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
-                    <div class="flex ml-10 w-fit h-fit shadow-2xl p-2 px-3 bg-primary-1 text-white rounded-full transition-colors duration-500 hover:bg-white hover:text-primary-1">
-                        <i class="fa-solid fa-angle-left text-2xl leading-none"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-         <!-- Product -->
-         <section>
             <div class="w-full mx-auto 2xl:max-w-screen-2xl">
                 <div class="flex flex-col gap-4 py-10 px-4 lg:px-2 lg:gap-6 xl:py-14 2xl:px-0">
-                    <p class="font-medium text-heading-6 p-2 px-4 bg-primary-1 text-white rounded-full w-fit xl:text-heading-5 reveal fadeIn">
+                    <p class="font-medium text-heading-6 p-2 px-4 bg-primary-1 text-white rounded-full w-fit xl:text-heading-5">
                         Sản phẩm nổi bật
                     </p>
-                    <div class="grid grid-cols-1 w-full gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 reveal fadeInLeft">
+                    <div class="grid grid-cols-1 w-full gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
                             <div class="w-full relative pt-[100%]">
                                 <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
@@ -152,100 +125,53 @@
                                Ten san pham
                             </p>
                         </div>
-                       
-                    </div>
-
-                    <div class="flex justify-center reveal fadeInDown">
-                        <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                            <a href="product.html" class="flex gap-1 items-center bg-primary-1 text-neutral-600 p-2 px-4 rounded-md hover:bg-secondary-1 hover:text-white transition-colors duration-300">
-                                MORE
-                                <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
-                            </a>
-                        </button>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_3.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_3.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
+                        <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
+                            <div class="w-full relative pt-[100%]">
+                                <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
+                            </div>
+                            <p class="text-secondary-1 font-medium text-lg">
+                               Ten san pham
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Banner -->
-        <section>
+         <!-- Banner -->
+         <section>
             <div class="reveal fadeIn">
                 <div class="relative w-full pt-[40%] lg:pt-[20%]">
                     <img src="../image/banner_4.png" class="image-custom object-cover" alt="">
                 </div>
-            </div>
-        </section>      
-        
-         <!-- Product -->
-         <section>
-          <div class="w-full mx-auto 2xl:max-w-screen-2xl">
-              <div class="flex flex-col items-center gap-4 py-10 px-4 lg:px-2 lg:gap-6 xl:py-14 2xl:px-0">
-                  <p class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-5 reveal fadeIn">
-                      Sản phẩm
-                  </p>
-                  <div class="grid grid-cols-1 w-full gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 reveal fadeInLeft">
-                      <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <p class="text-secondary-1 font-medium text-lg">
-                             Ten san pham
-                          </p>
-                      </div>
-                      <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/banner_3.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <p class="text-secondary-1 font-medium text-lg">
-                             Ten san pham
-                          </p>
-                      </div>
-                      <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/banner_3.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <p class="text-secondary-1 font-medium text-lg">
-                             Ten san pham
-                          </p>
-                      </div>
-                      <div class="group flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/banner_1.png" class="image-custom object-cover rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/banner_2.png" class="image-custom object-cover rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <p class="text-secondary-1 font-medium text-lg">
-                             Ten san pham
-                          </p>
-                      </div>
-                     
-                  </div>
-
-                  <div class="flex justify-center reveal fadeInDown">
-                      <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                          <a href="product.html" class="flex gap-1 items-center hover:bg-primary-1 hover:text-neutral-600 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
-                              MORE
-                              <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
-                          </a>
-                      </button>
-                  </div>
-              </div>
-          </div>
-        </section>
-
-           <!-- Banner -->
-           <section>
-            <div class="w-full mx-auto 2xl:max-w-screen-2xl">
-              <div class="grid grid-cols-1 gap-5 reveal fadeIn md:grid-cols-2">
-                  <div class="relative w-full pt-[40%]">
-                      <img src="../image/banner_2.png" class="image-custom object-cover" alt="">
-                  </div>
-                  <div class="relative w-full pt-[40%]">
-                    <img src="../image/banner_1.png" class="image-custom object-cover" alt="">
-                </div>
-              </div>
             </div>
         </section>  
     </main>
