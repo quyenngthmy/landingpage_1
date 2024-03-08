@@ -44,3 +44,7 @@ html {
         display: none;
     }
 }
+
+.product-container {
+    @apply  flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105
+}
