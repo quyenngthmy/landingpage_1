@@ -21,7 +21,6 @@
 }
 
 @layer components {
-
 .reveal{
     @apply  opacity-0;
     &.active{
@@ -54,7 +53,6 @@
     }
 }
 
-//   một số ví dụ về hover . lưu ý cách đặt tên class (tùy biến phù hợp với nội dung của layout) phải có nghĩa tường minh, không đặt các class tổng quát như ví dụ
 .zoomIn{
     transform: scale(1);
     @include transition(all,0.2s,0s,ease-in-out);
@@ -99,17 +97,10 @@
 
 }
 
-/* animation */
-/* lưu ý: các thông số của animation có thể thay đổi phù hợp với yêu cầu của các layout, một số animation là kết hợp của các animation bên dưới */
-@mixin keyframes($name){
-    @keyframes #{$name}{
-        @content;
-    }
+.fadein { 
+    @include keyframes(fadeIn);
+    @include animate(fadeIn,1s,ease-in-out,0s);
 }
-@mixin animate($animation,$duration,$method,$times){
-    animation: $animation $duration $method $times;
-}
-
 
 // flip in left
 .flipInLeft { 
@@ -185,7 +176,7 @@
             transform: translateX(0);
         }
     }
-    @include animate(fadeinLeft, 1s,ease-in-out,0.3s);
+    @include animate(fadeinLeft, 1s,ease-in-out ,0s);
 }
  
 // fade in right

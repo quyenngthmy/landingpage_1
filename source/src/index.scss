@@ -46,5 +46,9 @@ html {
 }
 
 .product-container {
-    @apply  flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105
+    @apply flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full border border-neutral-3-300 hover:shadow-dropdown transition-all duration-500 hover:scale-105
+}
+
+.product-color-container {
+    @apply w-full h-full rounded-md border border-neutral-1-800 shadow-dropdown;
 }
