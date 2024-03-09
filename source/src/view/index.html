@@ -95,12 +95,12 @@
                         <img src="../image/banner_3.png" class="image-custom object-cover" alt="banner home 1" loading="lazy">
                     </div>
                 </div>
-                <div class="swiper-button-next invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
+                <div class="swiper-button-next swiper-button-banner-next invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
                     <div class="flex mr-10 w-fit h-fit shadow-2xl p-2 px-3 bg-primary-1 text-white rounded-full transition-colors duration-500 hover:bg-white hover:text-primary-1">
                         <i class="fa-solid fa-angle-right text-2xl leading-none"></i>
                     </div>
                 </div>
-                <div class="swiper-button-prev invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
+                <div class="swiper-button-prev swiper-button-banner-prev invisible opacity-0 transition-all duration-500 md:group-hover:opacity-100 md:group-hover:visible">
                     <div class="flex ml-10 w-fit h-fit shadow-2xl p-2 px-3 bg-primary-1 text-white rounded-full transition-colors duration-500 hover:bg-white hover:text-primary-1">
                         <i class="fa-solid fa-angle-left text-2xl leading-none"></i>
                     </div>
@@ -423,8 +423,10 @@
                     <h2 class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-5 reveal fadeIn">
                       Uniform collection
                     </h2>
-                    <div class="grid grid-cols-1 w-full gap-10 md:grid-cols-2 xl:grid-cols-4 reveal fadeInLeft">
-                        <div class="product-container group">
+                    <div class="relative w-full">
+                      <div class="swiper swiperUniform reveal fadeIn w-full">
+                        <div class="swiper-wrapper w-full">
+                          <div class="swiper-slide product-container group">
                             <div class="w-full relative pt-[100%]">
                                 <img loading="lazy" src="../image/uniform/hospital/71FFbPh9MvL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
                                 <img loading="lazy" src="../image/uniform/hospital/71i8y-zdqhL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
@@ -432,37 +434,67 @@
                             <h3 class="text-secondary-1 font-medium text-lg">
                                Ten san pham
                             </p>
+                          </div>
+                          <div class="swiper-slide product-container group">
+                              <div class="w-full relative pt-[100%]">
+                                  <img loading="lazy" src="../image/uniform/hotel/71wky7xKCML._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                  <img loading="lazy" src="../image/uniform/hotel/612-N92ccjL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                              </div>
+                              <h3 class="text-secondary-1 font-medium text-lg">
+                                Ten san pham
+                              </p>
+                          </div>
+                          <div class="swiper-slide product-container group">
+                              <div class="w-full relative pt-[100%]">
+                                  <img loading="lazy" src="../image/uniform/labor/71u2tJF-zHL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                  <img loading="lazy" src="../image/uniform/labor/81SjxaZkGRL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                              </div>
+                              <h3 class="text-secondary-1 font-medium text-lg">
+                                Ten san pham
+                              </p>
+                          </div>
+                          <div class="swiper-slide product-container group">
+                              <div class="w-full relative pt-[100%]">
+                                  <img loading="lazy" src="../image/uniform/kitchen/71-TZeU4UTL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                  <img loading="lazy" src="../image/uniform/kitchen/71XStmWaqSL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                              </div>
+                              <h3 class="text-secondary-1 font-medium text-lg">
+                                Ten san pham
+                              </p>
+                          </div>
+                          <div class="swiper-slide product-container group">
+                              <div class="w-full relative pt-[100%]">
+                                  <img loading="lazy" src="../image/uniform/sport/61vcKden0ML._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                  <img loading="lazy" src="../image/uniform/sport/61bM5D7nhqL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                              </div>
+                              <h3 class="text-secondary-1 font-medium text-lg">
+                                Ten san pham
+                              </p>
+                          </div>
+                          <div class="swiper-slide product-container group">
+                              <div class="w-full relative pt-[100%]">
+                                  <img loading="lazy" src="../image/uniform/student/51moCsgW57L._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                  <img loading="lazy" src="../image/uniform/student/41mrbsqoKhL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                              </div>
+                              <h3 class="text-secondary-1 font-medium text-lg">
+                                Ten san pham
+                              </p>
+                          </div>
                         </div>
-                        <div class="product-container group">
-                            <div class="w-full relative pt-[100%]">
-                                <img loading="lazy" src="../image/uniform/hotel/71wky7xKCML._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                                <img loading="lazy" src="../image/uniform/hotel/612-N92ccjL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                            </div>
-                            <h3 class="text-secondary-1 font-medium text-lg">
-                               Ten san pham
-                            </p>
+                      </div>
+                      <div class="swiper-button-prev swiper-button-uniform-prev hidden lg:flex">
+                        <div class="flex justify-center items-center w-10 h-10 2xl:-ml-10 shadow-2xl p-2 px-3 bg-primary-1 text-white rounded-full transition-colors duration-500 hover:bg-white hover:text-primary-1">
+                            <i class="fa-solid fa-arrow-left text-2xl leading-none"></i>
                         </div>
-                        <div class="product-container group">
-                            <div class="w-full relative pt-[100%]">
-                                <img loading="lazy" src="../image/uniform/kitchen/71-TZeU4UTL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                                <img loading="lazy" src="../image/uniform/kitchen/71XStmWaqSL._AC_SY550_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                            </div>
-                            <h3 class="text-secondary-1 font-medium text-lg">
-                               Ten san pham
-                            </p>
+                      </div>
+                      <div class="swiper-button-next swiper-button-uniform-next hidden lg:flex">
+                        <div class="flex justify-center items-center w-10 h-10 2xl:-mr-10 shadow-2xl p-2 px-3 bg-primary-1 text-white rounded-full transition-colors duration-500 hover:bg-white hover:text-primary-1">
+                            <i class="fa-solid fa-arrow-right text-2xl leading-none"></i>
                         </div>
-                        <div class="product-container group">
-                            <div class="w-full relative pt-[100%]">
-                                <img loading="lazy" src="../image/uniform/sport/61vcKden0ML._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                                <img loading="lazy" src="../image/uniform/sport/61bM5D7nhqL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                            </div>
-                            <h3 class="text-secondary-1 font-medium text-lg">
-                               Ten san pham
-                            </p>
-                        </div>
-                       
+                      </div>
+                     
                     </div>
-  
+                  
                     <div class="flex justify-center reveal fadeInDown">
                         <button class="flex text-body-2 font-medium pt-4 w-fit group">
                             <a href="./uniform.html" class="flex gap-1 items-center hover:bg-primary-1 hover:text-neutral-600 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
@@ -585,14 +617,39 @@
     <script>
         var swiper = new Swiper(".swiperBanner", {
           navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-banner-next",
+            prevEl: ".swiper-button-banner-prev",
           },
           loop: true,
           autoplay: {
             delay: 2500,
             disableOnInteraction: false,
           },
+        });
+        var swiperUniform = new Swiper(".swiperUniform", {
+          navigation: {
+            nextEl: ".swiper-button-uniform-next",
+            prevEl: ".swiper-button-uniform-prev",
+          },
+          spaceBetween: 40,
+          loop: true,
+          autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 4,
+            }, 
+          },
+          
+          
         });
     </script>
 </html>
