@@ -31,6 +31,7 @@ const COLORS = {
   primary: {
     1: '#A68A64',
     2: '#DEB37C',
+    3: '#EEDCCE',
   },
   secondary: {
     1: '#696969',
@@ -159,8 +160,7 @@ module.exports = {
         'display-6': ['40px', 'auto'],
       },
       backgroundImage: {
-        'banner': "url('/src/image/banner.jpg')",
-        'bg-footer': "url('/src/image/bg-footer.jpg')",
+        'background-social': "url('/src/image/background-social.jfif')",
       },
       boxShadow:{
         dropdown : '0px 4px 4px rgba(0, 0, 0, 0.08)',
