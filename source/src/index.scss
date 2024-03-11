@@ -13,7 +13,7 @@ html {
     }
     
     #nav {
-        @apply flex flex-col gap-5 uppercase text-base text-neutral-1-300 font-semibold lg:flex-row lg:text-white lg:gap-0;
+        @apply flex flex-col gap-5 uppercase text-base font-semibold lg:flex-row lg:gap-0;
         li {
             @apply flex transition-colors duration-500 hover:bg-primary-2;
             a {

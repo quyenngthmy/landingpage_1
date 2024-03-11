@@ -16,35 +16,18 @@
   </head>
   <body class="font-sans w-screen overflow-x-hidden">
     <header>
-      <div class="w-full bg-white">
-        <div class="flex p-2 justify-between lg:px-4 2xl:px-16">
-          <div class="text-primary-1 text-xl font-semibold uppercase">
-            <a href="./index.html"> LOGO </a>
-          </div>
-          <div class="hidden items-center gap-4 text-sm text-primary-1 md:flex">
-            <div class="flex items-center gap-1">
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel:+84123456789">+84 123 456 789</a>
-            </div>
-            <div class="flex items-center gap-1">
-                <i class="fa-solid fa-envelope"></i>
-                <p>mail@mail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="w-full bg-gradient-to-bl from-secondary-2 to-secondary-3">
         <div class="text-white text-center text-base font-medium p-2 lg:px-4 2xl:px-16">
-            <p> Nhập mã SUPER50 giảm ngay 50K </p>
+            <p> Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
       <div class="top-0 w-full z-30" id="header">
-        <div class="bg-gradient-to-b from-gradient-start to-gradient-end shadow-dropdown p-2 lg:py-0 lg:px-4 2xl:px-16">
+        <div class=" shadow-dropdown p-2 lg:py-0 lg:px-4 2xl:px-16">
           <div class="flex items-center justify-between px-4 lg:px-2 2xl:px-0">
-            <button class="btn-open-menu text-white md:p-2 lg:hidden">
+            <button class="btn-open-menu md:p-2 lg:hidden">
               <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="flex justify-center grow text-white text-xl font-semibold uppercase md:text-2xl lg:grow-0" >
+            <div class="flex justify-center grow text-xl font-semibold uppercase md:text-2xl lg:grow-0" >
               <a href="./index.html" >
                 LOGO
               </a>
@@ -52,32 +35,40 @@
             <div class="overlay-menu z-40">
               <div class="menu-header">
                 <div class="flex justify-between items-center lg:hidden">
-                  <div class="flex text-primary-1 text-xl font-bold uppercase md:text-2xl lg:text-primary-1">
+                  <div class="flex text-primary-1 text-xl font-bold uppercase md:text-2xl">
                     <a href="./index.html"> LOGO </a>
                   </div>
                   <button class="flex text-xl btn-close-menu">
                     <i class="fa-solid fa-xmark"></i>
                   </button>
                 </div>
-                <ul id="nav">
-                    <li>
-                      <a href="./index.html">home</a>
-                    </li>
-                    <li>
-                      <a href="#">introduction</a>
-                    </li>
-                    <li>
-                      <a href="./#">product</a>
-                    </li>
-                    <li>
-                      <a href="#">contact</a>
-                    </li>
+                <ul id="nav" class="text-primary-1">
+                  <li>
+                    <a href="./index.html">home</a>
+                  </li>
+                  <li>
+                    <a href="#">introduction</a>
+                  </li>
+                  <li>
+                    <a href="#">product</a>
+                  </li>
+                  <!-- <li class="wrapper-collapse">
+                    <a href="./#">product</a>
+                    <button class="btn-collapse">click</button>
+                    <div class="menu-collapse flex w-full justify-center left-0 top-full xl:absolute xl:hidden xl:group-hover:flex">
+                      dsf
+                    </div>
+                  </li> -->
+                  <li>
+                    <a href="#">contact</a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
+    
     </header>
 
     <main>
@@ -310,22 +301,49 @@
                 </div>
               </div>
         </section>
-
-         <!-- Banner -->
-         <section>
-            <div class="reveal fadeIn">
-                <div class="relative w-full pt-[40%] lg:pt-[20%]">
-                    <img src="../image/banner_4.png" class="image-custom object-cover" alt="">
-                </div>
-            </div>
-        </section>  
     </main>
 
     <footer>
       <section>
-          <div class="bg-gradient-to-b from-primary-1 to-primary-2 w-full mt-20">
+        <div class="bg-gradient-to-bl from-secondary-2 to-secondary-3 mt-5">
+          <div class="bg-white/80">
             <div class="w-full mx-auto 2xl:max-w-screen-2xl">
-              <div class="grid grid-cols-1 gap-5 text-white py-10 px-4 lg:px-2 xl:py-20 xl:grid-cols-3 2xl:px-0">
+              <div class="flex flex-col items-center py-5 gap-4 px-4 lg:py-10 lg:px-2 xl:gap-10 2xl:px-0">
+                <h4 class="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-primary-1 to-primary-2 md:text-4xl">
+                  LET'S GET SOCIAL!
+                </h4>
+                <div class="grid grid-cols-4 gap-5 w-full text-5xl leading-[48px] justify-items-center xl:gap-10 xl:h-60">
+                  <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-background-social">
+                    <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                      <i class="fa-brands fa-facebook text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
+                    </a>
+                  </div>
+                  <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-background-social">
+                    <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                      <i class="fa-brands fa-youtube text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
+                    </a>
+                  </div>
+                  <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-background-social">
+                    <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                      <i class="fa-brands fa-instagram text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
+                    </a>
+                  </div>
+                  <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-background-social">
+                    <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                      <i class="fa-brands fa-pinterest text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+          <div class="w-full">
+            <div class="w-full mx-auto 2xl:max-w-screen-2xl">
+              <div class="grid grid-cols-1 gap-5 py-10 px-4 lg:px-2 xl:py-20 xl:grid-cols-3 2xl:px-0">
                   <div class="flex flex-col gap-4">
                       <div class="text-2xl font-bold uppercase">
                           <a href="#">
@@ -381,17 +399,6 @@
                       </li>
                     </ul>
                   </div>
-                  <ul class="flex gap-6 text-3xl leading-none">
-                    <a href="#">
-                      <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa-brands fa-tiktok"></i>
-                    </a>
-                  </ul>
               </div>
           </div>
           </div>
@@ -405,21 +412,16 @@
           </div>
           <div class="fixed z-10 bottom-5 left-7">
               <div class="flex flex-col gap-3">
-                  <button class="flex gap-2 w-fit h-fit items-center justify-center text-white bg-info-400 px-2.5 py-1.5 rounded-full shadow-dropdown">
-                      <a href="https://zalo.me/0946317555">
-                          <i class="fa-solid fa-phone"></i>
-                          <span>Liên hệ Zalo</span>
-                      </a>
-                  </button>
-                  <button class="flex gap-2 w-fit h-fit items-center justify-center text-white bg-primary-1 px-2.5 py-1.5 rounded-full shadow-dropdown">
-                      <a href="tel:+84946317555">
-                          <i class="fa-solid fa-phone"></i>
-                          <span>Hotline: 0946 317 555</span>
-                      </a>
+                  <button class="flex gap-2 w-fit h-fit items-center justify-center text-white bg-neutral-1-400 px-2.5 py-1.5 rounded-full shadow-dropdown">
+                    <a href="tel:+84123456789">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Hotline: 0123 456 789</span>
+                    </a>
                   </button>
               </div>
           </div>
       </section>
+
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
