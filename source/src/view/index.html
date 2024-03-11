@@ -79,7 +79,10 @@
                     <img src="../image/banner/banner_1.gif" class="image-custom object-cover" alt="banner home 1" loading="lazy">
                   </div>
                   <div class="swiper-slide relative w-full pt-[42%]">
-                      <img src="../image/banner/banner_3.gif" class="image-custom" alt="banner home 1" loading="lazy">
+                      <img src="../image/banner/banner_2.gif" class="image-custom" alt="banner home 1" loading="lazy">
+                  </div>
+                  <div class="swiper-slide relative w-full pt-[42%]">
+                      <img src="../image/banner/banner_4.gif" class="image-custom" alt="banner home 1" loading="lazy">
                   </div>
                   <div class="swiper-slide relative w-full pt-[42%]">
                       <img src="../image/banner/banner_6.gif" class="image-custom" alt="banner home 1" loading="lazy">
@@ -107,7 +110,7 @@
                     <h2 class="font-medium p-2 px-4 bg-gradient-to-bl from-primary-1 to-primary-2 text-white rounded-full w-fit text-lg md:text-heading-3">
                         Best sellers
                     </h2>
-                    <div class="grid grid-cols-1 w-full gap-5 md:gap-10 md:grid-cols-2 xl:grid-cols-4">
+                    <div class="grid grid-cols-2 w-full gap-5 md:gap-10 xl:grid-cols-4">
                         <div class="product-container group">
                           <div class="swiper swiper-bestseller_1-preview w-full">
                             <div class="swiper-wrapper w-full">
@@ -130,11 +133,11 @@
                                 <img loading="lazy" src="../image/best-seller/best-seller1/71whS2kWR-L._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl" alt="">
                               </div>
                             </div>
-                            
                           </div>
-                          <div class="flex flex-col gap-3 w-full px-4">
-                            <div class="swiper swiper-bestseller_1 mx-0 w-5/6">
-                              <div class="swiper-wrapper">
+                          
+                          <div class="flex flex-col gap-2 w-full px-4">
+                            <div class="swiper swiper-bestseller_1 mx-0 w-full md:w-5/6">
+                              <div class="swiper-wrapper h-12 pb-2 md:h-auto">
                                 <div class="swiper-slide w-full h-5 cursor-pointer">
                                   <div class="product-color-container bg-blue-400"></div>
                                 </div>
@@ -157,7 +160,7 @@
                             </div>
                             <h3 class="text-secondary-1 font-medium text-lg">
                               Ten san pham
-                          </h3>
+                            </h3>
                           </div>
                         </div>
                         <div class="product-container group">
@@ -185,8 +188,8 @@
                             
                           </div>
                           <div class="flex flex-col gap-3 w-full px-4">
-                            <div class="swiper swiper-bestseller_2 mx-0 w-5/6">
-                              <div class="swiper-wrapper">
+                            <div class="swiper swiper-bestseller_2 mx-0 w-full md:w-5/6">
+                              <div class="swiper-wrapper h-12 pb-2 md:h-auto">
                                 <div class="swiper-slide w-full h-5 cursor-pointer">
                                   <div class="product-color-container bg-white"></div>
                                 </div>
@@ -236,9 +239,9 @@
                             </div>
                             
                           </div>
-                          <div class="flex flex-col gap-3 w-full px-4">
-                            <div class="swiper swiper-bestseller_3 mx-0 w-5/6">
-                              <div class="swiper-wrapper">
+                          <div class="flex flex-col gap-2 w-full px-4">
+                            <div class="swiper swiper-bestseller_3 mx-0 w-full md:w-5/6">
+                              <div class="swiper-wrapper h-12 pb-2 md:h-auto">
                                 <div class="swiper-slide w-full h-5 cursor-pointer">
                                   <div class="product-color-container bg-black"></div>
                                 </div>
@@ -288,9 +291,9 @@
                             </div>
                             
                           </div>
-                          <div class="flex flex-col gap-3 w-full px-4">
-                            <div class="swiper swiper-bestseller_4 mx-0 w-5/6">
-                              <div class="swiper-wrapper">
+                          <div class="flex flex-col gap-2 w-full px-4">
+                            <div class="swiper swiper-bestseller_4 mx-0 w-full md:w-5/6">
+                              <div class="swiper-wrapper h-12 pb-2 md:h-auto">
                                 <div class="swiper-slide w-full h-5 cursor-pointer">
                                   <div class="product-color-container bg-white"></div>
                                 </div>
@@ -331,7 +334,7 @@
                     <img src="../image/banner/banner_5.gif" class="image-custom" alt="">
                 </div>
                 <div class="relative w-full pt-[40%]">
-                  <img src="../image/banner/banner_4.gif" class="image-custom" alt="">
+                  <img src="../image/banner/banner_3.gif" class="image-custom" alt="">
               </div>
             </div>
           </div>
@@ -789,10 +792,9 @@
           </div>
           <div class="fixed z-10 bottom-5 left-7">
               <div class="flex flex-col gap-3">
-                  <button class="flex gap-2 w-fit h-fit items-center justify-center text-white bg-neutral-1-400 px-2.5 py-1.5 rounded-full shadow-dropdown">
+                  <button class="flex gap-2 w-fit h-fit items-center justify-center text-white bg-black p-3 rounded-full shadow-hotline">
                     <a href="tel:+84123456789">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>Hotline: 0123 456 789</span>
+                        <i class="fa-solid fa-phone border border-white rounded-full p-2"></i>
                     </a>
                   </button>
               </div>
@@ -805,9 +807,20 @@
     <script>
         var swiperBestSeller1 = new Swiper(".swiper-bestseller_1", {
             spaceBetween: 10,
-            slidesPerView: 6,
             freeMode: true,
             watchSlidesProgress: true,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 6,
+                grid: {
+                  rows: 1,
+                },
+              },
+            },
           });
           var swiperBestSeller1Thumb = new Swiper(".swiper-bestseller_1-preview", {
             thumbs: {
@@ -817,9 +830,20 @@
 
         var swiperBestSeller2 = new Swiper(".swiper-bestseller_2", {
             spaceBetween: 10,
-            slidesPerView: 6,
             freeMode: true,
             watchSlidesProgress: true,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 6,
+                grid: {
+                  rows: 1,
+                },
+              },
+            },
           });
           var swiperBestSeller2Thumb = new Swiper(".swiper-bestseller_2-preview", {
             thumbs: {
@@ -828,9 +852,20 @@
           });
         var swiperBestSeller3 = new Swiper(".swiper-bestseller_3", {
             spaceBetween: 10,
-            slidesPerView: 6,
             freeMode: true,
             watchSlidesProgress: true,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 6,
+                grid: {
+                  rows: 1,
+                },
+              },
+            },
           });
           var swiperBestSeller3Thumb = new Swiper(".swiper-bestseller_3-preview", {
             thumbs: {
@@ -839,9 +874,20 @@
           });
         var swiperBestSeller4 = new Swiper(".swiper-bestseller_4", {
             spaceBetween: 10,
-            slidesPerView: 6,
             freeMode: true,
             watchSlidesProgress: true,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 6,
+                grid: {
+                  rows: 1,
+                },
+              },
+            },
           });
           var swiperBestSeller4Thumb = new Swiper(".swiper-bestseller_4-preview", {
             thumbs: {
@@ -883,8 +929,6 @@
               slidesPerView: 4,
             }, 
           },
-          
-          
         });
     </script>
 </html>
