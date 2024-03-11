@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="top-0 w-full z-30" id="header">
-        <div class="bg-gradient-to-b from-gradient-start to-gradient-end shadow-dropdown p-2 lg:py-0 lg:px-4 2xl:px-16">
+        <div class="bg-gradient-to-b from-primary-1 to-primary-2 shadow-dropdown p-2 lg:py-0 lg:px-4 2xl:px-16">
           <div class="flex items-center justify-between px-4 lg:px-2 2xl:px-0">
             <button class="btn-open-menu text-white md:p-2 lg:hidden">
               <i class="fa-solid fa-bars"></i>
@@ -50,8 +50,15 @@
                     <a href="#">introduction</a>
                   </li>
                   <li>
-                    <a href="./#">product</a>
+                    <a href="#">product</a>
                   </li>
+                  <!-- <li class="wrapper-collapse">
+                    <a href="./#">product</a>
+                    <button class="btn-collapse">click</button>
+                    <div class="menu-collapse flex w-full justify-center left-0 top-full xl:absolute xl:hidden xl:group-hover:flex">
+                      dsf
+                    </div>
+                  </li> -->
                   <li>
                     <a href="#">contact</a>
                   </li>
@@ -91,13 +98,13 @@
             </div>
         </section>
 
-         <!-- Product -->
-         <section>
+        <!-- Product -->
+        <section>
            <div class="bg-gradient-to-t from-primary-1 to-primary-2 md:mb-5 lg:my-10">
-             <div class="bg-white/80">
+             <div class="bg-white/70">
               <div class="w-full mx-auto 2xl:max-w-screen-2xl">
                 <div class="flex flex-col gap-6 py-10 px-4 lg:px-2 2xl:px-0">
-                    <h2 class="font-medium p-2 px-4 bg-gradient-to-bl from-primary-1 to-primary-2 text-white rounded-full w-fit text-lg md:text-heading-6 xl:text-heading-5">
+                    <h2 class="font-medium p-2 px-4 bg-gradient-to-bl from-primary-1 to-primary-2 text-white rounded-full w-fit text-lg md:text-heading-3">
                         Best sellers
                     </h2>
                     <div class="grid grid-cols-1 w-full gap-5 md:gap-10 md:grid-cols-2 xl:grid-cols-4">
@@ -152,6 +159,7 @@
                 </div>
             </div>
         </section> -->
+
           <!-- Banner -->
           <section>
             <div class="w-full mx-auto 2xl:max-w-screen-2xl">
@@ -169,72 +177,71 @@
          <!-- Basic -->
          <section>
           <div class="w-full mx-auto 2xl:max-w-screen-2xl">
-              <div class="flex flex-col items-center gap-4 py-5 px-4 lg:px-2 lg:gap-6 xl:py-10 2xl:px-0">
-                  <h2 class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-3 reveal fadeIn">
-                      Basic collection
-                  </h2>
-                  <div class="grid grid-cols-2 w-full gap-5 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
-                      <div class="product-container group">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/basic/basic_1/basic_1_3.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/basic/basic_1/basic_1_4.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
-                             Ten san pham
-                          </h3>
-                      </div>
-                      <div class="product-container group">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/basic/basic_2/basic_2_3.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/basic/basic_2/basic_2_4.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
-                             Ten san pham
-                          </h3>
-                      </div>
-                      <div class="product-container group">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/basic/basic_3/basic_3_1.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/basic/basic_3/basic_3_2.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
-                             Ten san pham
-                          </h3>
-                      </div>
-                      <div class="product-container group">
-                          <div class="w-full relative pt-[100%]">
-                              <img loading="lazy" src="../image/basic/basic_4/basic_4_1.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                              <img loading="lazy" src="../image/basic/basic_4/basic_4_2.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
-                          </div>
-                          <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
-                             Ten san pham
-                          </h3>
-                      </div>
-                     
-                  </div>
+            <div class="flex flex-col items-center gap-4 py-5 px-4 lg:px-2 lg:gap-6 xl:py-10 2xl:px-0">
+                <h2 class="font-semibold text-heading-4 text-transparent bg-clip-text bg-gradient-to-br from-primary-1 to-primary-2 w-fit md:text-heading-1 reveal fadeIn">
+                    Basic collection
+                </h2>
+                <div class="grid grid-cols-2 w-full gap-4 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
+                    <div class="product-container group">
+                        <div class="w-full relative pt-[100%]">
+                            <img loading="lazy" src="../image/basic/basic_1/basic_1_3.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                            <img loading="lazy" src="../image/basic/basic_1/basic_1_4.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                        </div>
+                        <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
+                           Ten san pham
+                        </h3>
+                    </div>
+                    <div class="product-container group">
+                        <div class="w-full relative pt-[100%]">
+                            <img loading="lazy" src="../image/basic/basic_2/basic_2_3.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                            <img loading="lazy" src="../image/basic/basic_2/basic_2_4.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                        </div>
+                        <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
+                           Ten san pham
+                        </h3>
+                    </div>
+                    <div class="product-container group">
+                        <div class="w-full relative pt-[100%]">
+                            <img loading="lazy" src="../image/basic/basic_3/basic_3_1.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                            <img loading="lazy" src="../image/basic/basic_3/basic_3_2.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                        </div>
+                        <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
+                           Ten san pham
+                        </h3>
+                    </div>
+                    <div class="product-container group">
+                        <div class="w-full relative pt-[100%]">
+                            <img loading="lazy" src="../image/basic/basic_4/basic_4_1.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                            <img loading="lazy" src="../image/basic/basic_4/basic_4_2.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                        </div>
+                        <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
+                           Ten san pham
+                        </h3>
+                    </div>
+                </div>
 
-                  <div class="flex justify-center reveal fadeInDown">
-                      <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                          <a href="./basic.html" class="flex gap-1 items-center hover:bg-primary-1 hover:text-neutral-600 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
-                              MORE
-                              <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
-                          </a>
-                      </button>
-                  </div>
-              </div>
-          </div>
+                <div class="flex justify-center reveal fadeInDown">
+                  <button class="flex text-body-2 font-medium pt-2 w-fit group md:pt-4">
+                      <a href="./basic.html" class="flex gap-1 items-center text-neutral-600 p-2 px-4 rounded-md hover:bg-secondary-1 hover:text-white transition-colors duration-300">
+                          MORE
+                          <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
+                      </a>
+                  </button>
+                </div>
+            </div>
+        </div>
         </section>
 
          <!-- Coat -->
          <section>
           <div class="bg-gradient-to-t from-primary-1 to-primary-2 md:mb-5 lg:my-10">
-            <div class="bg-white/80">
+            <div class="bg-white/70">
               <div class="w-full mx-auto 2xl:max-w-screen-2xl">
                 <div class="flex flex-col items-center gap-4 py-5 px-4 lg:px-2 lg:gap-6 xl:py-10 2xl:px-0">
-                    <h2 class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-3 reveal fadeIn">
+                    <h2 class="font-semibold text-heading-4 text-transparent bg-clip-text bg-gradient-to-br from-secondary-1 to-secondary-2 w-fit md:text-heading-1 reveal fadeIn">
                         Coat collection
                     </h2>
-                    <div class="grid grid-cols-2 w-full gap-5 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
+                    <div class="grid grid-cols-2 w-full gap-4 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
                         <div class="product-container group">
                             <div class="w-full relative pt-[100%]">
                                 <img loading="lazy" src="../image/coat/coat_1/61chBywYZkL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
@@ -271,12 +278,11 @@
                                Ten san pham
                             </h3>
                         </div>
-                       
                     </div>
   
                   <div class="flex justify-center reveal fadeInDown">
-                      <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                          <a href="./coat.html" class="flex gap-1 items-center bg-primary-1 text-neutral-600 p-2 px-4 rounded-md hover:bg-secondary-1 hover:text-white transition-colors duration-300">
+                      <button class="flex text-body-2 font-medium pt-2 w-fit group md:pt-4">
+                          <a href="./coat.html" class="flex gap-1 items-center hover:bg-primary-1 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
                               MORE
                               <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
                           </a>
@@ -288,18 +294,18 @@
           </div>
         </section>
 
-           <!-- Goft -->
+           <!-- Golf -->
            <section>
             <div class="w-full mx-auto 2xl:max-w-screen-2xl">
                 <div class="flex flex-col items-center gap-4 py-5 px-4 lg:px-2 lg:gap-6 xl:py-10 2xl:px-0">
-                    <h2 class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-3 reveal fadeIn">
-                      Goft collection
+                    <h2 class="font-semibold text-heading-4 text-transparent bg-clip-text bg-gradient-to-br from-primary-1 to-primary-2 w-fit md:text-heading-1 reveal fadeIn">
+                      Golf collection
                     </h2>
-                    <div class="grid grid-cols-2 w-full gap-5 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
+                    <div class="grid grid-cols-2 w-full gap-4 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
                         <div class="product-container group">
                             <div class="w-full relative pt-[100%]">
-                                <img loading="lazy" src="../image/goft/61dJrAtUwoL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                                <img loading="lazy" src="../image/goft/61QAjyZtXRL._AC_SX569_.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                                <img loading="lazy" src="../image/goft/weigthededgestuddedcoolinghighneckblack4.webp" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/goft/3-510x780.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
                             </div>
                             <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
                                Ten san pham
@@ -316,8 +322,8 @@
                         </div>
                         <div class="product-container group">
                             <div class="w-full relative pt-[100%]">
-                                <img loading="lazy" src="../image/goft/IMG_4315.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                                <img loading="lazy" src="../image/goft/IMG_4316.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                                <img loading="lazy" src="../image/goft/5D3_8878_1_1_855c35f8-81ed-41cd-a562-cfcafeb75e85_800x1026_crop_center@2x.webp" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/goft/5D3_9355_1_59f0b14f-f29d-4d59-9928-c0b688b5c9a8_800x1026_crop_center@2x.webp" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
                             </div>
                             <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
                                Ten san pham
@@ -325,8 +331,8 @@
                         </div>
                         <div class="product-container group">
                             <div class="w-full relative pt-[100%]">
-                                <img loading="lazy" src="../image/goft/4-1-510x636.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
-                                <img loading="lazy" src="../image/goft/7-510x926.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
+                                <img loading="lazy" src="../image/goft/1.1-510x753.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
+                                <img loading="lazy" src="../image/goft/2-2-510x676.jpg" class="image-custom object-contain rounded-t-xl hidden group-hover:block" alt="">
                             </div>
                             <h3 class="text-secondary-1 font-medium text-sm md:text-lg">
                                Ten san pham
@@ -336,12 +342,12 @@
                     </div>
   
                     <div class="flex justify-center reveal fadeInDown">
-                        <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                            <a href="./goft.html" class="flex gap-1 items-center hover:bg-primary-1 hover:text-neutral-600 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
-                                MORE
-                                <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
-                            </a>
-                        </button>
+                      <button class="flex text-body-2 font-medium pt-2 w-fit group md:pt-4">
+                          <a href="./goft.html" class="flex gap-1 items-center text-neutral-600 p-2 px-4 rounded-md hover:bg-secondary-1 hover:text-white transition-colors duration-300">
+                              MORE
+                              <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
+                          </a>
+                      </button>
                     </div>
                 </div>
             </div>
@@ -350,13 +356,13 @@
           <!-- Office -->
           <section>
             <div class="bg-gradient-to-t from-primary-1 to-primary-2 md:mb-5 lg:my-10">
-              <div class="bg-white/80">
+              <div class="bg-white/70">
                 <div class="w-full mx-auto 2xl:max-w-screen-2xl">
                   <div class="flex flex-col items-center gap-4 py-5 px-4 lg:px-2 lg:gap-6 xl:py-10 2xl:px-0">
-                      <h2 class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-3 reveal fadeIn">
+                      <h2 class="font-semibold text-heading-4 text-transparent bg-clip-text bg-gradient-to-br from-secondary-1 to-secondary-2 w-fit md:text-heading-1 reveal fadeIn">
                         Office collection
                       </h2>
-                      <div class="grid grid-cols-2 w-full gap-5 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
+                      <div class="grid grid-cols-2 w-full gap-4 xl:gap-10 xl:grid-cols-4 reveal fadeInLeft">
                           <div class="product-container group">
                               <div class="w-full relative pt-[100%]">
                                   <img loading="lazy" src="../image/office/61xmfotQqEL_AC_SX569.jpg" class="image-custom object-contain rounded-t-xl group-hover:hidden" alt="">
@@ -393,17 +399,16 @@
                                  Ten san pham
                               </p>
                           </div>
-                         
                       </div>
     
                       <div class="flex justify-center reveal fadeInDown">
-                          <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                              <a href="./office.html" class="flex gap-1 items-center hover:bg-primary-1 hover:text-neutral-600 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
-                                  MORE
-                                  <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
-                              </a>
-                          </button>
-                      </div>
+                        <button class="flex text-body-2 font-medium pt-2 w-fit group md:pt-4">
+                            <a href="./office.html" class="flex gap-1 items-center hover:bg-primary-1 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
+                                MORE
+                                <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
+                            </a>
+                        </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -414,11 +419,11 @@
           <section>
             <div class="w-full mx-auto 2xl:max-w-screen-2xl">
                 <div class="flex flex-col items-center gap-4 py-5 px-4 lg:px-2 lg:gap-6 xl:py-10 2xl:px-0">
-                    <h2 class="font-medium text-heading-6 text-neutral-1-700 w-fit xl:text-heading-3 reveal fadeIn">
+                    <h2 class="font-semibold text-heading-4 text-transparent bg-clip-text bg-gradient-to-br from-primary-1 to-primary-2 w-fit md:text-heading-1 reveal fadeIn">
                       Uniform collection
                     </h2>
                     <div class="relative w-full">
-                      <div class="swiper swiperUniform reveal fadeIn w-full">
+                      <div class="swiper swiperUniform reveal fadeIn w-full p-2 py-3 md:py-5">
                         <div class="swiper-wrapper w-full">
                           <div class="swiper-slide product-container group">
                             <div class="w-full relative pt-[100%]">
@@ -486,16 +491,15 @@
                             <i class="fa-solid fa-arrow-right text-2xl leading-none"></i>
                         </div>
                       </div>
-                     
                     </div>
-                  
+
                     <div class="flex justify-center reveal fadeInDown">
-                        <button class="flex text-body-2 font-medium pt-4 w-fit group">
-                            <a href="./uniform.html" class="flex gap-1 items-center hover:bg-primary-1 hover:text-neutral-600 p-2 px-4 rounded-md bg-secondary-1 text-white transition-colors duration-300">
-                                MORE
-                                <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
-                            </a>
-                        </button>
+                      <button class="flex text-body-2 font-medium pt-2 w-fit group md:pt-4">
+                          <a href="./uniform.html" class="flex gap-1 items-center text-neutral-600 p-2 px-4 rounded-md hover:bg-secondary-1 hover:text-white transition-colors duration-300">
+                              MORE
+                              <i class="fa-solid fa-arrow-right transition-transform duration-500 group-hover:translate-x-2"></i>
+                          </a>
+                      </button>
                     </div>
                 </div>
             </div>
@@ -508,7 +512,9 @@
           <div class="bg-white/80">
             <div class="w-full mx-auto 2xl:max-w-screen-2xl">
               <div class="flex flex-col items-center py-5 gap-4 px-4 lg:py-10 lg:px-2 xl:gap-10 2xl:px-0">
-                <h4 class="text-xl md:text-3xl">LET'S GET SOCIAL!</h4>
+                <h4 class="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-primary-1 to-primary-2 md:text-4xl">
+                  LET'S GET SOCIAL!
+                </h4>
                 <div class="grid grid-cols-4 gap-5 w-full text-5xl leading-[48px] justify-items-center xl:gap-10 xl:h-60">
                   <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-background-social">
                     <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">

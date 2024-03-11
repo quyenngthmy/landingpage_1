@@ -11,7 +11,7 @@ module.exports = {
   },
   devServer: {
     watchFiles: ["src/**/*"],
-    port: 1700,
+    port: 2000,
     hot: true,
   },
   stats: {
@@ -104,8 +104,8 @@ module.exports = {
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
-      filename: 'goft.html',
-      template: './src/view/goft.html',
+      filename: 'golf.html',
+      template: './src/view/golf.html',
       inject: "body",
       chunks: ['index'],
     }),
