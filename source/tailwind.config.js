@@ -160,7 +160,7 @@ module.exports = {
         'display-6': ['40px', 'auto'],
       },
       backgroundImage: {
-        'social': "url('/src/image/background/background-social.jfif')",
+        'social': "url('/src/image/background/social.png')",
         'social-container': "url('/src/image/background/social-container.png')",
         'footer': "url('/src/image/background/footer.png')",
       },

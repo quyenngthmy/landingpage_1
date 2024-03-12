@@ -75,18 +75,20 @@
         <section>
             <div class="swiper swiperBanner group">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide relative w-full pt-[33%]">
-                    <video class="image-custom" autoplay loop muted>
-                      <source src="../image/banner/banner1.mp4" type="video/mp4">
+                  <div class="swiper-slide relative w-full pt-[115%] md:pt-[33%]">
+                    <video class="image-custom" autoplay loop muted playsinline>
+                      <source src="../image/banner/banner1.mp4" type="video/mp4" media="(min-width:768px)">
+                      <source src="../image/banner/banner-mobile_1.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div class="swiper-slide relative w-full pt-[33%]">
-                    <video class="image-custom" autoplay loop muted>
-                      <source src="../image/banner/banner2.mp4" type="video/mp4">
+                  <div class="swiper-slide relative w-full pt-[115%] md:pt-[33%]">
+                    <video class="image-custom" autoplay loop muted playsinline>
+                      <source src="../image/banner/banner2.mp4" type="video/mp4" media="(min-width:768px)">
+                      <source src="../image/banner/banner-mobile_1.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div class="swiper-slide relative w-full pt-[33%]">
-                    <video class="image-custom" autoplay loop muted>
+                  <div class="swiper-slide relative w-full pt-[115%] md:pt-[33%]">
+                    <video class="image-custom" autoplay loop muted playsinline>
                       <source src="../image/banner/banner3.mp4" type="video/mp4">
                     </video>
                   </div>
@@ -340,9 +342,10 @@
         </section>   -->
         <section>
             <div class="reveal fadeIn">
-                <div class="relative w-full pt-[40%] lg:pt-[25%]">
-                  <video class="image-custom" autoplay loop muted>
-                    <source src="../image/banner/idea-black.mp4" type="video/mp4">
+                <div class="relative w-full pt-[47%] lg:pt-[25%]">
+                  <video class="image-custom" autoplay loop muted playsinline>
+                    <source src="../image/banner/idea-black.mp4" type="video/mp4" media="(min-width:1024px)">
+                    <source src="../image/banner/idea-black-mobile.mp4" type="video/mp4">
                   </video>
                 </div>
             </div>
@@ -468,7 +471,7 @@
         <section>
           <div class="reveal fadeIn">
               <div class="relative w-full pt-[40%] lg:pt-[20%]">
-                <video class="image-custom" autoplay loop muted>
+                <video class="image-custom" autoplay loop muted playsinline>
                   <source src="../image/banner/sports-uniforms2.mp4" type="video/mp4">
                 </video>
               </div>
@@ -701,23 +704,23 @@
                 LET'S GET SOCIAL!
               </h4>
               <div class="grid grid-cols-4 gap-5 w-full text-5xl leading-[48px] justify-items-center xl:gap-10 xl:h-60">
-                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-social">
-                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 bg-cover xl:w-full xl:h-full xl:bg-social">
+                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl">
                     <i class="fa-brands fa-facebook text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
                   </a>
                 </div>
-                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-social">
-                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 bg-cover xl:w-full xl:h-full xl:bg-social">
+                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl">
                     <i class="fa-brands fa-youtube text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
                   </a>
                 </div>
-                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-social">
-                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 bg-cover xl:w-full xl:h-full xl:bg-social">
+                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl">
                     <i class="fa-brands fa-instagram text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
                   </a>
                 </div>
-                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 xl:w-full xl:h-full xl:bg-social">
-                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl xl:bg-white/80">
+                <div class="flex bg-red-600 h-16 w-16 rounded-xl shadow-social hover:scale-105 transition-all duration-500 bg-cover xl:w-full xl:h-full xl:bg-social">
+                  <a href="#" class="flex w-full h-full items-center justify-center rounded-xl">
                     <i class="fa-brands fa-pinterest text-white xl:bg-red-600 xl:shadow-social xl:rounded-xl xl:p-3"></i>
                   </a>
                 </div>
@@ -910,10 +913,10 @@
             prevEl: ".swiper-button-banner-prev",
           },
           loop: true,
-          // autoplay: {
-          //   delay: 3000,
-          //   disableOnInteraction: false,
-          // },
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+          },
         });
 
         var swiperUniform = new Swiper(".swiperUniform", {
