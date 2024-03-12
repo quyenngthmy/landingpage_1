@@ -15,7 +15,7 @@ html {
     #nav {
         @apply flex flex-col gap-5 uppercase text-base font-semibold lg:flex-row lg:gap-0;
         li {
-            @apply flex transition-colors duration-500 hover:bg-primary-2;
+            @apply flex transition-colors duration-500 hover:bg-primary-1 hover:text-white;
             a {
                 @apply lg:px-4 lg:py-6;
             }

@@ -160,7 +160,9 @@ module.exports = {
         'display-6': ['40px', 'auto'],
       },
       backgroundImage: {
-        'background-social': "url('/src/image/background-social.jfif')",
+        'social': "url('/src/image/background/background-social.jfif')",
+        'social-container': "url('/src/image/background/social-container.png')",
+        'footer': "url('/src/image/background/footer.png')",
       },
       boxShadow:{
         dropdown : '0px 4px 4px rgba(0, 0, 0, 0.08)',
