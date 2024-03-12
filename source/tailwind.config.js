@@ -159,6 +159,9 @@ module.exports = {
         'display-5': ['48px', 'auto'],
         'display-6': ['40px', 'auto'],
       },
+      fontFamily: {
+        edu: ['EduNSWACTFoundation', 'sans-serif'],
+      },
       backgroundImage: {
         'social': "url('/src/image/background/social.png')",
         'social-container': "url('/src/image/background/social-container.png')",

@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 @import "./scss/animation.scss";
+@import "./fonts/Edu_NSW_ACT_Foundation/style.css";
 
 html {
     scroll-behavior: smooth;
+    @apply font-edu
 }
 @layer components {
     .image-custom {
