@@ -173,7 +173,7 @@ module.exports = {
         navmenu : '0px 10px 40px 0px #00000014',
       },
       maxWidth: {
-        'screen': '1440px',
+        'screen-3xl': '2560px',
       }
     },
   },
