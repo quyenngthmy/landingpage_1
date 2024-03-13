@@ -104,8 +104,8 @@ module.exports = {
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
-      filename: 'golf.html',
-      template: './src/view/golf.html',
+      filename: 'sports.html',
+      template: './src/view/sports.html',
       inject: "body",
       chunks: ['index'],
     }),

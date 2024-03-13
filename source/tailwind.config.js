@@ -142,8 +142,6 @@ module.exports = {
         'caption-2': ['12px', '20px'], 
         'body-1': ['18px', '24px'],
         'body-2': ['16px', '22px'],
-        'title-1': ['16px', '24px'],
-        'title-2': ['14px', '24px'],
         'header-1': ['20px', '28px'],
         'header-2': ['18px', '28px'],
         'heading-1': ['40px', '58px'],
