@@ -3,11 +3,10 @@
 @tailwind utilities;
 
 @import "./scss/animation.scss";
-@import "./fonts/Edu_NSW_ACT_Foundation/style.css";
+@import "./fonts/dosis/style.css";
 
 html {
     scroll-behavior: smooth;
-    // @apply font-edu
     font-family: "Dosis", sans-serif;
 }
 @layer components {

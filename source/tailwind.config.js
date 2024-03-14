@@ -158,7 +158,7 @@ module.exports = {
         'display-6': ['40px', 'auto'],
       },
       fontFamily: {
-        edu: ['EduNSWACTFoundation', 'sans-serif'],
+        dosis: ['Dosis', 'sans-serif'],
       },
       backgroundImage: {
         'social': "url('/src/image/background/social.png')",
@@ -171,7 +171,7 @@ module.exports = {
         navmenu : '0px 10px 40px 0px #00000014',
       },
       maxWidth: {
-        'screen-3xl': '2560px',
+        'screen-3xl': '1920px',
       }
     },
   },
