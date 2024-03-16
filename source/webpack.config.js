@@ -92,6 +92,12 @@ module.exports = {
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
+      filename: 'collection.html',
+      template: './src/view/collection.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
       filename: 'basic.html',
       template: './src/view/basic.html',
       inject: "body",
