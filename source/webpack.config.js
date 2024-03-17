@@ -170,6 +170,18 @@ module.exports = {
       inject: "body",
       chunks: ['index'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'eco-bag.html',
+      template: './src/view/eco-bag.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'gift.html',
+      template: './src/view/gift.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
     new MiniCssExtractPlugin({
       filename: "static/css/[name].min.css",
     }),
