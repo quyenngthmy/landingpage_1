@@ -166,6 +166,11 @@ module.exports = {
         'social': "url('/src/image/background/social.png')",
         'social-container': "url('/src/image/background/social-container.png')",
         'footer': "url('/src/image/background/footer.png')",
+        'best-seller-1': "url('/src/image/best-seller/bg/bg-best-seller-1.jpg')",
+        'best-seller-2': "url('/src/image/best-seller/bg/bg-best-seller-2.jpg')",
+        'best-seller-3': "url('/src/image/best-seller/bg/bg-best-seller-3.webp')",
+        'best-seller-4': "url('/src/image/best-seller/bg/bg-best-seller-4.webp')",
+        'best-seller-sologan': "url('/src/image/best-seller/bg/bg-best-seller-sologan.jpg')",
       },
       boxShadow:{
         dropdown : '0px 4px 4px rgba(0, 0, 0, 0.08)',
