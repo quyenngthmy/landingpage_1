@@ -161,8 +161,8 @@ module.exports = {
         dosis: ['Dosis', 'sans-serif'],
       },
       backgroundImage: {
-        'home': "url('/src/image/home/home-banner_1.jpg')",
-        'home-mobile': "url('/src/image/home/home-banner_1-mobile.jpg')",
+        'home': "url('/src/image/home/bg-home.png')",
+        'home-mobile': "url('/src/image/home/bg-home-mobile.png')",
         'social': "url('/src/image/background/social.png')",
         'social-container': "url('/src/image/background/social-container.png')",
         'footer': "url('/src/image/background/footer.png')",
