@@ -92,12 +92,6 @@ module.exports = {
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
-      filename: 'collection.html',
-      template: './src/view/collection.html',
-      inject: "body",
-      chunks: ['index'],
-    }),
-    new HtmlWebpackPlugin({
       filename: 'basic.html',
       template: './src/view/basic.html',
       inject: "body",
@@ -109,12 +103,7 @@ module.exports = {
       inject: "body",
       chunks: ['index'],
     }),
-    new HtmlWebpackPlugin({
-      filename: 'sports.html',
-      template: './src/view/sports.html',
-      inject: "body",
-      chunks: ['index'],
-    }),
+
     new HtmlWebpackPlugin({
       filename: 'office.html',
       template: './src/view/office.html',
@@ -122,8 +111,62 @@ module.exports = {
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
-      filename: 'uniform.html',
-      template: './src/view/uniform.html',
+      filename: 'sports-golf.html',
+      template: './src/view/sports-golf.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'sports-gym.html',
+      template: './src/view/sports-gym.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'sports-school.html',
+      template: './src/view/sports-school.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'sports-swimming.html',
+      template: './src/view/sports-swimming.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'uniform-chef.html',
+      template: './src/view/uniform-chef.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'uniform-hospital.html',
+      template: './src/view/uniform-hospital.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'uniform-hotel.html',
+      template: './src/view/uniform-hotel.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'uniform-labor.html',
+      template: './src/view/uniform-labor.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'uniform-school.html',
+      template: './src/view/uniform-school.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'uniform-service.html',
+      template: './src/view/uniform-service.html',
       inject: "body",
       chunks: ['index'],
     }),

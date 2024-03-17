@@ -67,8 +67,8 @@ html {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
 
-    .menu-collapse, .sub-menu-collapse{
-        @apply max-h-0 overflow-y-hidden xl:max-h-screen xl:overflow-y-visible;
+    .collapse-items, .sub-collapse-items {
+        @apply max-h-0 overflow-y-hidden flex flex-col text-lg pl-2 pt-2 gap-2 lg:text-xl lg:gap-2.5;
         transition: max-height .5s ease;
         &.collapse{
             @apply max-h-screen visible;
@@ -76,20 +76,23 @@ html {
         }
     }
 
-    .wrapper-collapse.collapse{
-        @apply visible border border-primary-1 rounded-md;
-        > div:first-child{
-            @apply bg-primary-1 text-white rounded-t;
-            span{ 
-                @apply text-white;
+    .collapse-wrapper.collapse {
+        @apply visible;
+      
+    }
+    
+    .collapse-trigger, .btn-sub-collapse {
+        @apply flex items-center justify-between lg:justify-normal lg:gap-3;
+        &.collapse {
+            @apply visible;
+            .collapse-icon {
+                transition: transform .3s ease-in-out;
+                @apply rotate-180;
             }
         }
     }
-    
-    .btn-collapse, .btn-sub-collapse{
-        transition: transform .3s ease-in-out;
-        &.collapse{
-            @apply rotate-180 visible;
-        }
+
+    .breadcrumb-container {
+        @apply flex gap-1 items-center capitalize text-lg md:text-2xl md:gap-2;
     }
 }
