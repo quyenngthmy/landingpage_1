@@ -169,7 +169,7 @@ module.exports = {
         'best-seller-1': "url('/src/image/best-seller/bg/bg-best-seller-1.jpg')",
         'best-seller-2': "url('/src/image/best-seller/bg/bg-best-seller-2.jpg')",
         'best-seller-3': "url('/src/image/best-seller/bg/bg-best-seller-3.webp')",
-        'best-seller-4': "url('/src/image/best-seller/bg/bg-best-seller-4.webp')",
+        'best-seller-4': "url('/src/image/best-seller/bg/bg-best-seller-4.jpg')",
         'best-seller-sologan': "url('/src/image/best-seller/bg/bg-best-seller-sologan.jpg')",
       },
       boxShadow:{
