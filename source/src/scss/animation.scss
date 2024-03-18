@@ -22,7 +22,7 @@
 
 @layer components {
 .reveal{
-    @apply  opacity-0;
+    @apply opacity-0;
     &.active{
         opacity: 1;
         transition-delay: 0.5s;
@@ -44,7 +44,7 @@
         }
         &.fadeIn { 
             @include keyframes(fadeIn);
-            @include animate(fadeIn,500ms,ease-in-out,0s);
+            @include animate(fadeIn,700ms,ease-in-out,0s);
         }
         &.flipMoveInUp { 
             @include keyframes(flipMoveInUp);
@@ -99,7 +99,7 @@
 
 .fadein { 
     @include keyframes(fadeIn);
-    @include animate(fadeIn,1s,ease-in-out,0s);
+    @include animate(fadeIn,1.5s,ease-in-out,0s);
 }
 
 // flip in left
