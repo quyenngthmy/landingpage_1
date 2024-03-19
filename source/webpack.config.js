@@ -194,6 +194,12 @@ module.exports = {
       inject: "body",
       chunks: ['index'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'story-sustainable-fashion.html',
+      template: './src/view/story-sustainable-fashion.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
     new MiniCssExtractPlugin({
       filename: "static/css/[name].min.css",
     }),
