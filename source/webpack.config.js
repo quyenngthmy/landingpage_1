@@ -200,6 +200,36 @@ module.exports = {
       inject: "body",
       chunks: ['index'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'story-live-in-fear.html',
+      template: './src/view/story-live-in-fear.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'story-natural-fabrics.html',
+      template: './src/view/story-natural-fabrics.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'story-environment-contaminated.html',
+      template: './src/view/story-environment-contaminated.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'story-acknowledge.html',
+      template: './src/view/story-acknowledge.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'story-1-for-all.html',
+      template: './src/view/story-1-for-all.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
     new MiniCssExtractPlugin({
       filename: "static/css/[name].min.css",
     }),

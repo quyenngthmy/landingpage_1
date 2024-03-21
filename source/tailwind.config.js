@@ -170,6 +170,7 @@ module.exports = {
         'best-seller-3': "url('/src/image/best-seller/bg/bg-best-seller-3.webp')",
         'best-seller-4': "url('/src/image/best-seller/bg/bg-best-seller-4.jpg')",
         'breadcrumb': "url('/src/image/background/breadcrumb.jpg')",
+        '1-for-all': "url('/src/image/stories/1-for-all/story-1-for-all-background.jpg')",
       },
       boxShadow:{
         dropdown : '0px 4px 4px rgba(0, 0, 0, 0.08)',
