@@ -178,7 +178,10 @@ module.exports = {
       },
       maxWidth: {
         'screen-3xl': '1920px',
-      }
+      },
+      screens: {
+        'xs': '375px',
+      },
     },
   },
   variants: {
