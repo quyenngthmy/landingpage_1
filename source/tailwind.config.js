@@ -162,8 +162,8 @@ module.exports = {
       },
       backgroundImage: {
         'header': "url('/src/image/background/header.jpg')",
-        'home': "url('/src/image/home/bg-home.png')",
-        'home-mobile': "url('/src/image/home/bg-home-mobile.png')",
+        'home': "url('/src/image/home/bg-home.jpg')",
+        'home-mobile': "url('/src/image/home/bg-home-mobile.jpg')",
         'social': "url('/src/image/background/social.png')",
         'best-seller-1': "url('/src/image/best-seller/bg/bg-best-seller-1.jpg')",
         'best-seller-2': "url('/src/image/best-seller/bg/bg-best-seller-2.jpg')",
