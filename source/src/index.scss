@@ -56,8 +56,12 @@ html {
     }
 
     .product-container {
-        @apply max-h-72 md:max-h-[354px] xl:max-h-[376px] 2xl:max-h-[540px];
+        @apply max-h-60 md:max-h-[300px] xl:max-h-[360px] 2xl:max-h-[480px];
+        &_basic {
+            @apply max-h-72 md:max-h-[354px] xl:max-h-[376px] 2xl:max-h-[530px];
+        }
     }
+
     
     .product-color-container {
         @apply w-full h-full rounded-md border border-neutral-1-800 shadow-dropdown;
