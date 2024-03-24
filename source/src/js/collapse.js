@@ -1,4 +1,3 @@
-// Menu Mobile
 const wrappersCollapse = document.querySelectorAll('.collapse-wrapper');
 const triggerCollapse = document.querySelectorAll('.collapse-trigger');
 const listItemCollapse = document.querySelectorAll('.collapse-items');
@@ -33,7 +32,6 @@ for ( let i = 0; i < triggerCollapse.length ; i++) {
       if(btnsSubCollapse[i]){
         btnsSubCollapse[i].addEventListener('click', (e) => {
           btnsSubCollapse[i].classList.toggle('collapse');
-          btnsSubCollapse[i].parentNode.classList.toggle('bg-primary-4');
           sublistItemCollapse[i].classList.toggle('collapse');
         });
       }

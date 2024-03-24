@@ -3,6 +3,7 @@ import "./js/scroll-to-top";
 import "./js/plugin-messenger";
 import "./js/reveal";
 import "./js/collapse";
+import "./js/dropdown";
 import 'animate.css';
 
 window.onbeforeunload = function () {

@@ -107,4 +107,11 @@ html {
     .breadcrumb-container {
         @apply flex flex-wrap gap-1 items-center capitalize text-lg md:text-3xl md:gap-2;
     }
+
+    .dropdown {
+        @apply relative focus:outline-none;
+        .dropdown-menu {
+            @apply space-y-2 absolute right-0 text-black truncate bg-white p-2 rounded-md shadow-dropdown text-base font-normal md:text-lg xl:text-2xl xl:p-3 xl:flex xl:flex-col xl:invisible xl:opacity-0 xl:duration-500 xl:transition-opacity;
+        }
+    }
 }
