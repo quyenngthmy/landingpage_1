@@ -18,6 +18,10 @@ html {
         --animate-duration: 2s;
     }
 
+    .animate__animated.animate__duration-1500ms {
+        --animate-duration: 1500ms;
+    }
+
     #nav {
         @apply flex flex-col gap-5 uppercase text-base font-semibold lg:flex-row lg:gap-0;
         li {
