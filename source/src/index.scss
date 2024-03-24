@@ -10,6 +10,10 @@ html {
     font-family: "Dosis", sans-serif;
 }
 @layer components {
+    input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
     .image-custom {
         @apply top-0 left-0 absolute w-full h-full;
     }

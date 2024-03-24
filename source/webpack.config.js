@@ -98,6 +98,12 @@ module.exports = {
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
+      filename: 'order.html',
+      template: './src/view/order.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
       filename: 'basic.html',
       template: './src/view/basic.html',
       inject: "body",
