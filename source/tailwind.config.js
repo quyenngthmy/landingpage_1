@@ -181,7 +181,7 @@ module.exports = {
         'screen-3xl': '1920px',
       },
       screens: {
-        'xs': '375px',
+        'xs': '414px',
       },
     },
   },
