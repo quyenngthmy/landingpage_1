@@ -60,13 +60,21 @@ html {
         }
     }
     
-    .product-container, .product-container-best-sellers {
+    .product-container {
         @apply flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full hover:shadow-dropdown transition-all duration-500 hover:scale-105 ;
-    }
+       
+        &-color {
+            @apply w-5 h-5 rounded-full border border-neutral-1-800 shadow-dropdown md:w-7 md:h-7 2xl:w-8 2xl:h-8;
+        }
+
+        &-best-sellers {
+            .product-container-color {
+                @apply w-9 h-9 md:w-6 md:h-6 lg:w-8 lg:h-8 2xl:w-10 2xl:h-10;
+
+            }
+        }
+    } 
     
-    .product-color-container {
-        @apply w-5 h-5 rounded-full border border-neutral-1-800 shadow-dropdown md:w-7 md:h-7 2xl:w-8 2xl:h-8;
-    }
     
     .shadow-social {
         box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
