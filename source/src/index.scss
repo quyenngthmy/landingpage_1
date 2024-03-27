@@ -61,7 +61,7 @@ html {
     }
     
     .product-container {
-        @apply flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full hover:shadow-dropdown transition-all duration-500 hover:scale-105 ;
+        @apply flex flex-col items-center bg-white gap-5 rounded-xl pb-4 w-full transition-all duration-500 hover:lg:scale-105 hover:lg:shadow-dropdown;
        
         &-color {
             @apply w-5 h-5 rounded-full border border-neutral-1-800 shadow-dropdown md:w-7 md:h-7 2xl:w-8 2xl:h-8;
